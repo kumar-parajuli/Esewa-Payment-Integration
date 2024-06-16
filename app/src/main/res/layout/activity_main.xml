@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="401dp"
+        android:layout_height="294dp"
+        android:src="@drawable/esewa_logo1"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/splash_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/greenbutton"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/your_digital_wallet_for_a_cashless_experience"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPay"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/splash_logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="-38dp"
+        android:layout_marginEnd="127dp"
+        android:background="@drawable/greenbutton"
+        android:text="@string/esewa_pay"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="88dp"
+        android:layout_height="82dp"
+        android:layout_below="@+id/splash_tagline"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="118dp"
+
+        android:gravity="center"
+        android:text="Design By\n Kumar"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_18sdp" />
+
+</RelativeLayout>

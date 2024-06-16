@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">esewa-integration</string>
+    <string name="pay_with_esewa">Pay with eSewa</string>
+    <string name="your_digital_wallet_for_a_cashless_experience">Your Digital Wallet for a Cashless Experience</string>
+    <string name="esewa_pay">Esewa Pay</string>
+
+</resources>
