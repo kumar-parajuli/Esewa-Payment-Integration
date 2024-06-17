@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_CODE_PAYMENT = 1;
     private EsewaConfiguration esewaConfiguration;
+
     private static final String CONFIG_ENVIRONMENT = EsewaConfiguration.ENVIRONMENT_TEST;
 
     private static final String MERCHANT_ID = "JB0BBQ4aD0UqIThFJwAKBgAXEUkEGQUBBAwdOgABHD4DChwUAB0R";
